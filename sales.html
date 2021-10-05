@@ -4,22 +4,48 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<title>Baseball &amp; Softball Sales</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
 	</head>
 	<body>
-		<header>Sales</header>
-		<nav>
-			<ul>
-		<li><a href="index.html">Index</a></li>
-		<li><a href="aboutpage.html">About Page</a></li>
-		<li><a href="pitching.html">Pitching</a></li>
-		<li><a href="hitting.html">Hitting</a></li>
-		<li><a href="fielding.html">Fielding</a></li>
-		<li><a class="active" href="sales.html">Sales</a></li>
-	</ul>
-	</nav>
-	
+	<header>
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+	<a class="navbar-brand" href="#"> Baseball &amp; Softball Information</a>
+	 <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      	<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+          	<a class="nav-link active" aria-current="page" href="#">Sales</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Index</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="pitching.html">Pitching</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="hitting.html">Hitting</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="fielding.html">Fielding</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="aboutpage.html">About</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+	<div class="container">
 	<p>This is our sales page. We're going to list the items that we currently 
 	use. But, you're most definitely not limited to just these options. When 
 	buying equipment or apparel you want to in into consider your position 
@@ -54,15 +80,14 @@
 	New balance Metal Softball Cleats and Nike Metal Baseball Cleats</p>
 		<img src="images/softballcleats.jpg" alt="New Balance Softball Cleats"/>
 		<img src="images/baseballcleats.jpg" alt="Nike Baseball Cleats"/>
-		<table>
-			<thead>
+		<table class="table">
+			<thead class="thead-light">
 			<tr>
-				<th> Average Prices: </th>
-				<th> Softball Equipment </th>
+				<th> Average Prices: Softball Equipment </th>
 			</tr>
 		</thead>
 		</table>
-		<table>
+		<table class="table">
 			<tr>
 				<td> Louisville Xeno Bat-- $350 </td>
 			</tr>
@@ -82,15 +107,14 @@
 				<td> New Balance Metal Softball Cleats-- $90 </td>
 			</tr>
 		</table>
-				<table>
-			<thead>
+				<table class="table">
+			<thead class="thead-light">
 			<tr>
-				<th> Average Prices: </th>
-				<th> Baseball Equipment </th>
+				<th> Average Prices: Baseball Equipment </th>
 			</tr>
 		</thead>
 		</table>
-		<table>
+		<table class="table">
 			<tr>
 				<td> Marucci Cat 8 Bat-- $230 </td>
 			</tr>
@@ -110,6 +134,9 @@
 				<td> Nike Metal Baseball Cleats-- $90 </td>
 			</tr>
 		</table>
-	
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"> </script>
 	</body>
 	</html>
